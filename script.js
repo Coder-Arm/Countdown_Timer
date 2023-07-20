@@ -43,7 +43,6 @@ const resetBtn = document.getElementById("reset");
 startBtn.addEventListener("click",()=>{
 
     inputElement.forEach((ele) =>{
-
         ele.classList.remove("red");
     })
    countdown =  setInterval(()=>{
@@ -85,6 +84,9 @@ stopBtn.addEventListener("click",()=>{
     clearInterval(countdown);
 })
 resetBtn.addEventListener("click",()=>{
+    inputElement.forEach((ele) =>{
+        ele.classList.remove("red");
+    })
         tensDigMin.value = "";
         onesDigMin.value = "";
         tensDigSec.value = "";
