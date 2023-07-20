@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Countdown Timer</h1>
+      <div class="timer">
+        <div class="upper-box">
+          <div class="item">
+            <input id="tens-Min" type="number" placeholder="0" />
+            <span>M</span>
+          </div>
+          <div class="item">
+            <input id="ones-Min" type="number" placeholder="0" />
+            <span>M</span>
+          </div>
+          <span>:</span>
+          <div class="item">
+            <input id="tens-Sec" type="number" placeholder="0" />
+            <span>S</span>
+          </div>
+          <div class="item">
+            <input id="ones-Sec" type="number" placeholder="0" />
+            <span>S</span>
+          </div>
+        </div>
+        <div class="btns">
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </main>
+    <script>
+      console.clear();
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
